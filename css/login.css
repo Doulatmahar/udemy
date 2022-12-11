@@ -1,0 +1,163 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Nunito', sans-serif;
+    
+}
+.body123{
+    display: flex;
+    justify-content: center;
+    
+    width: 100%;
+    height: 100vh;
+    margin-top: 3%;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    height: 200px; 
+    /* width: 500px; */
+    width: auto;
+
+}
+.p1{
+    margin-left: 20px;
+    margin-right: 125px;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+}
+.input1{
+    width: 350px;
+   
+    
+    padding: 20px;
+    border: 1px solid black;
+    outline: none;
+    color: black;
+    margin-top: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+::placeholder{
+    color: black;
+    font-weight: bold;
+}
+.div-checkbox{
+    padding-top: 20px;
+    display: flex;
+    
+    align-items: flex-start;
+    margin-right: 95px;
+   
+
+}
+.div-checkbox>input{
+    margin-top: 5px;
+    margin-right: 10px;
+    accent-color: black;
+  outline: black;
+  border: 1px solid black;
+  border-radius: none;
+ 
+  
+    
+}
+.div-checkbox>label{
+    font-size: 14px;
+    color: black;
+    
+
+}
+.button{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    margin-top: 10px;
+    width: 350px;
+    padding: 15px;
+    color: white;
+    background-color: #a435f0;
+    border: none;
+    font-weight: 700;
+}
+.button:hover{
+    background-color: #8710d8;
+}
+.para-1{
+    margin-top: 20px;
+    font-size: 12px;
+}
+.span-span{
+    text-decoration: underline;
+    text-underline-offset: 0.4rem;
+}
+.span-span>a{
+    text-decoration: none;
+    color: black;
+}
+
+.span-span>a:hover{
+    color: #8710d8;
+    text-decoration: underline #8710d8;
+    text-underline-offset: 0.4rem;
+
+}
+.para-account{
+    font-size: 14px;
+    padding-top: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.div-horizental-line{
+    border-bottom: 1px solid #d1d7dc;
+}
+.para-account>a{
+    
+    text-underline-offset: 0.2rem;
+color: #5624d0;
+    font-weight:bolder;
+}
+.div-login-ways{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:flex-start !important;
+
+}
+.facebook{
+    align-self: left;
+    width: 350px;
+    padding: 5px;
+   
+}
+@media only screen and (max-width: 370px) {
+
+    .form{
+    width: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 10px;
+}
+.input1{
+    width: auto;
+    min-width: 250px;
+}
+.button{
+    width: auto;
+    min-width: 250px;
+}
+.facebook{
+    width: auto;
+    min-width: 250px;
+}
+}
+@media only screen and (max-width: 600px) {
+
+    .form{
+    width: auto;
+    /* margin-left: 30%; */
+}
+}

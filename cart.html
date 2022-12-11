@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Udemy.com</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/navbar.css" />
+    <link rel="stylesheet" href="./css/cart.css">
+    <link rel="stylesheet" href="./css/footer.css">
+  </head>
+  <body>
+    <!-- navbar section -->
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html">
+          <img src="./images/logo-udemy.svg" id="logo" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarsupportedcontent1"
+          aria-controls="#navbarSupportedContent1"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent"> 
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <!-- <a class="nav-link" href="#">Catogories</a> -->
+              <div class="dropdown">
+                <button
+                  class="btn btn1 btn-secondary"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Catagories
+                </button>
+                <ul class="dropdown-menu dropdown-menu-light">
+                  <li><a class="dropdown-item" href="#">Development</a></li>
+                  <li><a class="dropdown-item" href="#">Bussiness</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Finance & Accounting</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">IT and Software</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Office Productivity</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Personal Development</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Design</a></li>
+                  <li><a class="dropdown-item" href="#">Marketing</a></li>
+                  <li><a class="dropdown-item" href="#">Lifestyle</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Photograpy and Video</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Health and Fitness</a>
+                  </li>
+                  <li><a class="dropdown-item" href="">Music</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Teaching and Academics</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <!-- <li > -->
+          <div class="div-search-bar">
+            <form class="d-flex" role="search">
+              <img
+                src="./images/search.png"
+                width="30px"
+                height="30px"
+                alt=""
+              />
+              <input
+                type="search"
+                placeholder="Search for anything"
+                aria-label=""
+              />
+            </form>
+          </div>
+          <!-- </li> -->
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link nav-link-1" href="./udemy-bussiness.html">Udemy Bussiness</a>
+             
+                
+              
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./udemy-teaching.html">Teach on Udemy</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./cart.html">
+                <img src="./images/shopping-cart.png" class="grocery" alt="" />
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./signup.html">
+                <button class="button-log-in">Log in</button>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./signup.html">
+                <button class="button-sign-up" href="./signup.html">Sign Up</button>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <div class="div-languages">
+                  <img
+                    src="./images/internet.png"
+                    width="20px"
+                    height="20px"
+                    alt=""
+                  />
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="collapse navbar-collapse" id="navbarsupportedcontent1">
+      <div class="collapse-1 ">
+        <p><a href="#" class="collapsed-button">Log in</a></p>
+        <p><a href="#" class="collapsed-button">Sign up</a></p>
+      </div>
+      <hr />
+      <div class="collapse-1">
+        <p style="color: #6a6f73; font-size:14px; font-weight:600;">Most Popular</p>
+        <p><div class="btn-group dropend">
+          <button type="button" class="btn btn-secondary dropdown-list-1 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            Web Development
+          </button>
+          <ul class="dropdown-menu">
+            <p>Web Development</p>
+            <p>JavaScript</p>
+            <p>React JS</p>
+            <p>CSS</p>
+            <p>Angular</p>
+            <p>Node.js</p>
+            <p>Typescript</p>
+            <p>HTML 5</p>
+            <p>Django</p>
+          </ul>
+        </div></p>
+        <p><div class="btn-group dropend">
+          <button type="button" class="btn btn-secondary dropdown-list-1 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            Mobile Development
+          </button>
+          <ul class="dropdown-menu">
+            <p>Web Development</p>
+            <p>JavaScript</p>
+            <p>React JS</p>
+            <p>CSS</p>
+            <p>Angular</p>
+            <p>Node.js</p>
+            <p>Typescript</p>
+            <p>HTML 5</p>
+            <p>Django</p>
+          </ul>
+        </div>
+      </p>
+        <p><div class="btn-group dropend">
+          <button type="button" class="btn btn-secondary dropdown-list-1 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            Game Development
+          </button>
+          <ul class="dropdown-menu">
+            <p>Web Development</p>
+            <p>JavaScript</p>
+            <p>React JS</p>
+            <p>CSS</p>
+            <p>Angular</p>
+            <p>Node.js</p>
+            <p>Typescript</p>
+            <p>HTML 5</p>
+            <p>Django</p>
+          </ul>
+        </div></p>
+        <p><div class="btn-group dropend">
+          <button type="button" class="btn btn-secondary dropdown-list-1 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            Entrepreneurish
+          </button>
+          <ul class="dropdown-menu">
+            <p>Web Development</p>
+            <p>JavaScript</p>
+            <p>React JS</p>
+            <p>CSS</p>
+            <p>Angular</p>
+            <p>Node.js</p>
+            <p>Typescript</p>
+            <p>HTML 5</p>
+            <p>Django</p>
+          </ul>
+        </div></p>
+        <p><div class="btn-group dropend">
+          <button type="button" class="btn btn-secondary dropdown-list-1 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            Bussiness Analytics & <br>Intelligence
+          </button>
+          <ul class="dropdown-menu">
+            <p>Web Development</p>
+            <p>JavaScript</p>
+            <p>React JS</p>
+            <p>CSS</p>
+            <p>Angular</p>
+            <p>Node.js</p>
+            <p>Typescript</p>
+            <p>HTML 5</p>
+            <p>Django</p>
+          </ul>
+        </div></p>
+        <p><div class="btn-group dropend">
+          <button type="button" class="btn btn-secondary dropdown-list-1 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            Digital Marketing
+          </button>
+          <ul class="dropdown-menu">
+            <p>Web Development</p>
+            <p>JavaScript</p>
+            <p>React JS</p>
+            <p>CSS</p>
+            <p>Angular</p>
+            <p>Node.js</p>
+            <p>Typescript</p>
+            <p>HTML 5</p>
+            <p>Django</p>
+          </ul>
+        </div></p>
+        <p><div class="btn-group dropend">
+          <button type="button" class="btn btn-secondary dropdown-list-1 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            Graphics Design & Illustration
+          </button>
+          <ul class="dropdown-menu">
+            <p>Web Development</p>
+            <p>JavaScript</p>
+            <p>React JS</p>
+            <p>CSS</p>
+            <p>Angular</p>
+            <p>Node.js</p>
+            <p>Typescript</p>
+            <p>HTML 5</p>
+            <p>Django</p>
+          </ul>
+        </div></p>
+        <p><div class="btn-group dropend">
+          <button type="button" class="btn btn-secondary dropdown-list-1 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            IT Certification
+          </button>
+          <ul class="dropdown-menu">
+            <p>Web Development</p>
+            <p>JavaScript</p>
+            <p>React JS</p>
+            <p>CSS</p>
+            <p>Angular</p>
+            <p>Node.js</p>
+            <p>Typescript</p>
+            <p>HTML 5</p>
+            <p>Django</p>
+          </ul>
+        </div></p>
+        <p><div class="btn-group dropend">
+          <button type="button" class="btn btn-secondary dropdown-list-1 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            Personal Transformations
+          </button>
+          <ul class="dropdown-menu">
+            <p>Web Development</p>
+            <p>JavaScript</p>
+            <p>React JS</p>
+            <p>CSS</p>
+            <p>Angular</p>
+            <p>Node.js</p>
+            <p>Typescript</p>
+            <p>HTML 5</p>
+            <p>Django</p>
+          </ul>
+        </div></p>
+        <p><div class="btn-group dropend">
+          <button type="button" class="btn btn-secondary dropdown-list-1 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            All Categories
+          </button>
+          <ul class="dropdown-menu">
+            <p>Web Development</p>
+            <p>JavaScript</p>
+            <p>React JS</p>
+            <p>CSS</p>
+            <p>Angular</p>
+            <p>Node.js</p>
+            <p>Typescript</p>
+            <p>HTML 5</p>
+            <p>Django</p>
+          </ul>
+        </div></p>
+      </div>
+    </div>
+    <!-- navbar section -->
+    <!-- cart section -->
+    <div class="container-xxl">
+      <h1 class="heading-shoping">Shopping cart</h1>
+      <p class="para-shoping">0 Courses in cart</p>
+      <div class="section-main-cart">
+        <img src="./images/cart-1st.jpg" alt="" class="image-shopping">
+        <p class="para-second">Your cart is empty. Keep shopping to find a course!</p>
+        <button class="button">Keep Shopping</button>
+      </div>
+    </div>
+    <!-- cart section end -->
+ <!-- footer-container --> 
+ <div class="container-fluid footer-section1">
+  <div class="div-opponet">
+    <div class="div-footer-differet">
+      <p class="footer-modification-para">Top companies choose <a class="para-link-modification">Udemy Business</a> to build in-demand career skills.</p>
+      
+    </div>
+    <div class="div-different-websites">
+      <img src="./images/nasdaq-light.svg" alt="">
+      <img src="./images/volkswagen-light.svg" alt="">
+      <img src="./images/box-light.svg" alt="">
+      <img src="./images/netapp-light.svg" alt="">
+      <img src="./images/eventbrite-light.svg" alt="">
+    </div>
+  </div>
+ 
+    <div class="footer-section">
+    <div class="div-footer-1">
+      <div class="footer-sub-sections">
+        <a href="#" class="footer-links">Udemy Bussiness</a>
+        <a href="#" class="footer-links">Teach on Udemy</a>
+        <a href="#" class="footer-links">Get the app</a>
+        <a href="#" class="footer-links">About us</a>
+        <a href="#" class="footer-links">Contact us</a>
+      </div>
+      <div class="footer-sub-sections">
+        <a href="#" class="footer-links">Careers</a>
+        <a href="#" class="footer-links">Blogs</a>
+        <a href="#" class="footer-links">Health and Support</a>
+        <a href="#" class="footer-links">Afiliate</a>
+        <a href="#" class="footer-links">Investors</a>
+      </div>
+      <div class="footer-sub-sections">
+        <a href="#" class="footer-links">Terms</a>
+        <a href="#" class="footer-links">Privacy and policy</a>
+        <a href="#" class="footer-links">Cookie settings</a>
+        <a href="#" class="footer-links">Sitemap</a>
+        <a href="#" class="footer-links">Accessibility statement</a>
+      </div>
+    </div>
+    <div class="div-footer-2">
+      <button>
+        <img src="./images/internet (1).png"  alt="">
+        <p>English</p>
+      </button>
+    </div>
+  </div>
+  <div class="last-section-footer">
+    <img src="./images/logo-udemy-inverted.svg"  alt="">
+    <p class="para-introduction">© 2022 Udemy, Inc.</p>
+  </div>
+  </div>
+  <!-- footer-container end -->
+    </body>
+    </html>
